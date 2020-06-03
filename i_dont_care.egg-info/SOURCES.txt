@@ -1,0 +1,7 @@
+README.md
+setup.py
+i_dont_care/__init__.py
+i_dont_care.egg-info/PKG-INFO
+i_dont_care.egg-info/SOURCES.txt
+i_dont_care.egg-info/dependency_links.txt
+i_dont_care.egg-info/top_level.txt
