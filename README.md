@@ -1,3 +1,4 @@
+
 # Midterm Demo: Team Bacon
  
 ## Overview  
@@ -28,3 +29,4 @@ This project is under the MIT License.
 ## Version History  
 - 1.0.0 20200603
     - Initial files created.  
+
