@@ -1,8 +1,7 @@
-
 # Midterm Demo: Team Bacon
  
 ## Overview  
-  
+  Corey was here
   
 ## Dependencies  
 - poetry  
