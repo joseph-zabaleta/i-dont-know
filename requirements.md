@@ -1,4 +1,6 @@
 # Software Requirements
+[Link to Main README](README.md)
+
 ## Vision
 * What is the vision of this product?  
     - To help people make food choice decisions without conflicts.  

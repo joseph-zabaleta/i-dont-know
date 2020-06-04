@@ -17,9 +17,6 @@
 - Software Developer: Joseph Zabaleta
   - [Official Github](https://github.com/joseph-zabaleta)  
 
-## Collaborations  
-- none  
-
 ## License  
 This project is under the MIT License.
 
@@ -30,3 +27,12 @@ This project is under the MIT License.
 - 1.0.0 20200603
     - Initial files created.  
 
+## Initial Wireframe  
+![wireframe](assets/wireframe.png)
+
+## User Stories  
+
+## Software Requirements  
+[Link to Software Requirements](requirements.md)
+
+## Domain Modeling  
