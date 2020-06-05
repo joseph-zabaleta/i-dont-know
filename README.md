@@ -30,7 +30,8 @@ This project is under the MIT License.
 ## Initial Wireframe  
 ![wireframe](assets/wireframe.png)
 
-## User Stories  
+## User Stories 
+[Link to Project Management Board](https://trello.com/b/wWMxIXzY/i-dont-know)  
 
 ## Software Requirements  
 [Link to Software Requirements](requirements.md)
