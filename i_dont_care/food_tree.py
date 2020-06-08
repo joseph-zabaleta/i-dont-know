@@ -109,6 +109,38 @@ class BinaryTree:
 
         return current_max_value
 
+
+    def prompt_questions(self, tree):
+        """
+        This method traverse the tree, prompting questions, and then moving depending on the answer to left or right
+        """
+        history = []
+
+        if tree.root == None : return 'Empty' # TODO: put a better return
+
+        def traverse(current_node):
+            if not current_node : return
+
+            # list_return.append(current_node.food)
+            history.append(current_node.question)
+            answer = ''
+            if current_node.left and current_node.right:
+                answer = input(current_node.question + '... ')
+
+            # todo: uppercase, lowercase... validate input..
+            if answer == 'A':
+                traverse(current_node.left)
+            else:
+                traverse(current_node.right)
+
+        final_op = traverse(tree.root)
+        print('The final option is', history)
+
+        return history # the last position is the selected option
+        
+        
+        
+
 class BinarySearchTree(BinaryTree):
     def __str__(self):
         if not self.root : return 'The root is empty.'
@@ -176,25 +208,37 @@ class Queue:
         return len(self.storage) == 0
 
 
-def create_tree():
-    bst = BinarySearchTree()
+def create_tree(tree):
+    # bst = BinarySearchTree()
     # print(bst)
     #  Left
-    bst.add(1000, 'Do you want Fast food or Sit down' )
-    bst.add(500, 'Sandwich or Italiann')
-    bst.add(450, 'Sandiwch')
-    bst.add(750, 'Italiann')
+    tree.add(1000, 'Do you want A) Fast food or B) Sit down')
+    tree.add(500, 'A) Sandwich or B) Cheesburger')
+    tree.add(450, 'Sandwich')
+    tree.add(750, 'Cheesburger')
 
     #  right
-    bst.add(1500, 'Do you want Mexican or French')
-    bst.add(1250, 'Sandiwch')
-    bst.add(1750, 'Italiann')
+    tree.add(1500, 'Do you want A) Mexican or B) French')
+    tree.add(1250, 'Mexican')
+    tree.add(1750, 'French')
+
+    # tree = bst.BreadthFirst(bst)
+    # for level in tree:
+    #     print(level)
 
 
+def do_web_scraping(topic):
+    print('Do scrapping on ', topic)
 
-    tree = bst.BreadthFirst(bst)
-    for level in tree:
-        print(level)
+def start_app():
+    bst = BinarySearchTree()
+    create_tree(bst)
+    history = bst.prompt_questions(bst)
+    do_web_scraping(history[-1])
+    # print(history)
+
+
 
 if __name__ == "__main__":
-    create_tree()
+    start_app()
+    
