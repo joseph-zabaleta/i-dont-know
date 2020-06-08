@@ -16,4 +16,3 @@ care
 """, font="starwars")
     cprint(test, 'cyan', attrs=['bold'])
 
-intro()
