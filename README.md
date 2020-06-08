@@ -19,8 +19,9 @@
 ## License  
 This project is under the MIT License.
 
-## Acknowledgements / Resources  
-- none
+## Acknowledgements / Resources / Inspiration Links
+- ASCII Art and Colors  
+    - [Link to Article](https://stackoverflow.com/questions/9632995/how-to-easily-print-ascii-art-text)  
 
 ## Version History  
 - 1.0.0 20200603
@@ -31,7 +32,10 @@ This project is under the MIT License.
     - Completed Software Requirements Document  
     - Completed Data-Flow Image  
     - Worked on User Stories and updating README
-
+- 1.0.2 20200608  
+    - Created a Intro module  
+    - Created a Tree module  
+    
 ---
 
 ## Initial Wireframe  
