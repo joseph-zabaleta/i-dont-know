@@ -1,7 +1,6 @@
 # Midterm Demo: Team Bacon
  
 ## Overview  
-  Corey was here
   
 ## Dependencies  
 - poetry  
@@ -32,9 +31,11 @@ This project is under the MIT License.
     - Completed Software Requirements Document  
     - Completed Data-Flow Image  
     - Worked on User Stories and updating README
-- 1.0.2 20200608  
-    - Created a Intro module  
-    - Created a Tree module  
+- 1.0.3 20200608  
+    - Created a Intro module 
+    - Created a Tree module
+    - Created basic scraper functionality
+    - Established main.py    
     
 ---
 
@@ -53,3 +54,4 @@ This project is under the MIT License.
 [Link to Software Requirements](requirements.md)
 
 ## Domain Modeling  
+![Domain Model](./assets/data-flow.png)
