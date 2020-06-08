@@ -138,9 +138,7 @@ class BinaryTree:
 
         return history # the last position is the selected option
         
-        
-        
-
+    
 class BinarySearchTree(BinaryTree):
     def __str__(self):
         if not self.root : return 'The root is empty.'
@@ -227,19 +225,15 @@ def create_tree(tree):
     #     print(level)
 
 
-def do_web_scraping(topic):
-    print('Now we are searching on the web for', topic, 'food...')
-    print('Here are your results for', topic)
 
 def start_app():
     bst = BinarySearchTree()
     create_tree(bst)
     history = bst.prompt_questions(bst)
-    do_web_scraping(history[-1])
-    # print(history)
+    return history[-1]
 
 
 
-if __name__ == "__main__":
-    start_app()
+# if __name__ == "__main__":
+#     start_app()
     

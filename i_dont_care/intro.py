@@ -4,7 +4,6 @@ import sys
 from textwrap import dedent
 from colorama import init
 init(strip=not sys.stdout.isatty())
-
 from termcolor import cprint 
 from pyfiglet import figlet_format as fig
 
@@ -16,4 +15,3 @@ care
 """, font="starwars")
     cprint(test, 'cyan', attrs=['bold'])
 
-intro()
