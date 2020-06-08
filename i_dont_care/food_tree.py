@@ -134,7 +134,7 @@ class BinaryTree:
                 traverse(current_node.right)
 
         final_op = traverse(tree.root)
-        print('The final option is', history)
+        # print('The final option is', history)
 
         return history # the last position is the selected option
         
@@ -228,7 +228,8 @@ def create_tree(tree):
 
 
 def do_web_scraping(topic):
-    print('Do scrapping on ', topic)
+    print('Now we are searching on the web for', topic, 'food...')
+    print('Here are your results for', topic)
 
 def start_app():
     bst = BinarySearchTree()
