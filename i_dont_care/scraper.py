@@ -8,15 +8,16 @@ def get_location():
 
 #this works
 def scrape_yelp(item):
+
     area = get_location()
     # print (f"Searchig information of {item} in {area}...")
     yelp_url = f'https://www.yelp.com/search?find_desc={item}&find_loc={area}&ns=1'
+
     print(yelp_url)
     resposne = requests.get(yelp_url)
     content = resposne.content
     soup = BeautifulSoup(content, "html.parser")
-  
-    result = soup.find_all('li', class_="lemon--li__373c0__1r9wz border-color--default__373c0__3-ifU")
+
 
     # with open('../assets/test-data.txt', 'w+') as f:    
     with open('./assets/test-data.txt', 'w+') as f:        
@@ -66,6 +67,7 @@ the name is inside :
 price
 <span class="lemon--span__373c0__3997G text__373c0__2Kxyz priceRange__373c0__2DY87 text-color--black-extra-light__373c0__2OyzO text-align--left__373c0__2XGa- text-bullet--after__373c0__3fS1Z">$$</span>
 
+
 phone
 <p class="lemon--p__373c0__3Qnnj text__373c0__2Kxyz text-color--black-extra-light__373c0__2OyzO text-align--right__373c0__1f0KI text-size--small__373c0__3NVWO">(206) 783-6362</p>
 
@@ -83,3 +85,4 @@ reviews
 <span class="lemon--span__373c0__3997G text__373c0__2Kxyz reviewCount__373c0__2r4xT text-color--black-extra-light__373c0__2OyzO text-align--left__373c0__2XGa-">1267</span>
 
 """
+
