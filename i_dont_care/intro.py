@@ -5,25 +5,26 @@
 
 # Menu Libraries
 import time
-import curses 
+import curses
 
-#ASCII Art Libraries 
-from termcolor import cprint 
+# ASCII Art Libraries
+from termcolor import cprint
 from pyfiglet import figlet_format as fig
 
-menu = ['Start', 'History(Coming Soon)', 'Random(Coming Soon)', 'Exit']
+menu = ["Start", "History(Coming Soon)", "Random(Coming Soon)", "Exit"]
+
 
 def print_menu(stdscr, selected_row_idx):
     stdscr.clear()
-    
+
     # text = fig('Honey... I don\'t know', font='starwars')
     # stdscr.addstr(0, 0, text)
     # stdscr.refresh()
 
     h, w = stdscr.getmaxyx()
     for idx, row in enumerate(menu):
-        x = w//2 - len(row)//2
-        y = h//2 - len(menu)//2 + idx
+        x = w // 2 - len(row) // 2
+        y = h // 2 - len(menu) // 2 + idx
         if idx == selected_row_idx:
             stdscr.attron(curses.color_pair(1))
             stdscr.addstr(y, x, row)
@@ -32,19 +33,23 @@ def print_menu(stdscr, selected_row_idx):
             stdscr.addstr(y, x, row)
     stdscr.refresh()
 
+
 def print_center(stdscr, text):
     stdscr.clear()
     h, w = stdscr.getmaxyx()
-    x = w//2 - len(text)//2
-    y = h//2
+    x = w // 2 - len(text) // 2
+    y = h // 2
     stdscr.addstr(y, x, text)
     stdscr.refresh()
 
+
 def main(stdscr):
-    curses.curs_set(0) # turns blinker on (1) off (0)
-    curses.init_pair(1, curses.COLOR_BLACK, curses.COLOR_WHITE) # color scheme, (foreground, then background color)
-    current_row = 0 # default row to start on
-    print_menu(stdscr, current_row) # print the main menu
+    curses.curs_set(0)  # turns blinker on (1) off (0)
+    curses.init_pair(
+        1, curses.COLOR_BLACK, curses.COLOR_WHITE
+    )  # color scheme, (foreground, then background color)
+    current_row = 0  # default row to start on
+    print_menu(stdscr, current_row)  # print the main menu
 
     status = True
 
@@ -53,29 +58,32 @@ def main(stdscr):
 
         if key == curses.KEY_UP and current_row > 0:
             current_row -= 1
-        elif key == curses.KEY_DOWN and current_row < len(menu)-1:
+        elif key == curses.KEY_DOWN and current_row < len(menu) - 1:
             current_row += 1
         elif key == curses.KEY_ENTER or key in [10, 13]:
 
             if current_row == 0:
-              stdscr.clear()
-              print_center(stdscr, 'Starting app...')
-              stdscr.refresh()
-              time.sleep(3)
-              break
-            
+                stdscr.clear()
+                print_center(stdscr, "Starting app...")
+                stdscr.refresh()
+                time.sleep(3)
+                break
+
             if current_row == 1 or current_row == 2:
-                print_center(stdscr, "Sorry! '{}' is still be developed".format(menu[current_row]))
+                print_center(
+                    stdscr,
+                    "Sorry! '{}' is still be developed".format(menu[current_row]),
+                )
                 stdscr.getch()
-            
-            if current_row == 3: #exit the program
-                print_center(stdscr, 'Thanks!')
+
+            if current_row == 3:  # exit the program
+                print_center(stdscr, "Thanks!")
                 time.sleep(3)
                 status = False
-                break 
+                break
 
         print_menu(stdscr, current_row)
     return status
 
-# result = curses.wrapper(main)
 
+# result = curses.wrapper(main)
