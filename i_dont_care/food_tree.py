@@ -110,32 +110,99 @@ class BinaryTree:
         return current_max_value
 
 
+    def validate_answer(self, prompt, answer):
+        return_dict = {
+            "is_valid": "",
+            "selected_option": "",
+            "word_selected_option": "",
+            "prompt" : ""
+            }
+
+        original_prompt = prompt
+        prompt = prompt.replace(' or ','')
+        prompt = prompt.replace('?','')
+        prompt = prompt.replace('.','')
+        #obtain question A and B
+        pos_opt_A = prompt.find("A)") + 2
+        pos_opt_B = prompt.find("B)")
+        question_A = prompt[pos_opt_A:pos_opt_B].strip()
+        pos_opt_B += 2
+        question_B = prompt[pos_opt_B:].strip()
+
+        possible_answers_A = []
+        possible_answers_A.append('a')
+        possible_answers_A.append('A')
+        possible_answers_A.append('1')
+        possible_answers_A.append(question_A)
+        possible_answers_A.append(question_A.upper())
+        possible_answers_A.append(question_A.lower())
+        possible_answers_A.append('Im leaf')
+        possible_answers_B = []
+        possible_answers_B.append('b')
+        possible_answers_B.append('B')    
+        possible_answers_B.append('2')
+        possible_answers_B.append(question_B)
+        possible_answers_B.append(question_B.upper())
+        possible_answers_B.append(question_B.lower())
+
+        answer = answer.strip()
+
+        if answer in possible_answers_A or answer in possible_answers_B:
+            return_dict["is_valid"] = True
+            if answer in possible_answers_A:
+                return_dict["selected_option"] = 'A'
+                return_dict["word_selected_option"] = question_A
+            else:
+                return_dict["selected_option"] = 'B'
+                return_dict["word_selected_option"] = question_B
+
+            return_dict["prompt"] = original_prompt
+        else:
+            return_dict["is_valid"] = False
+
+        return return_dict
+
+
     def prompt_questions(self, tree):
         """
-        This method traverse the tree, prompting questions, and then moving depending on the answer to left or right
+        This method traverse the tree, prompting questions, and then moving depending on the answer to left or right,
+        also saving a history on the visited nodes and user answers
         """
         history = []
 
-        if tree.root == None : return 'Empty' # TODO: put a better return
+        if tree.root == None : 
+            raise Exception('The tree is empty')
+            return 
 
         def traverse(current_node):
             if not current_node : return
 
-            # list_return.append(current_node.food)
-            history.append(current_node.question)
-            answer = ''
-            if current_node.left and current_node.right:
-                answer = input(current_node.question + '... ')
+            validate_answer = False
+            while not validate_answer:
+                answer = ''
+                if current_node.left and current_node.right:
+                    answer = input(current_node.question + '... ')
+                else:
+                    answer = "Im leaf"  # this is a system valid answer and will execute the while
 
-            # todo: uppercase, lowercase... validate input..
-            if answer == 'A':
+                answer_list = self.validate_answer(current_node.question, answer)
+
+                validate_answer = answer_list["is_valid"] # true or false
+
+            history.append(answer_list["word_selected_option"])
+
+
+            # selected_option = answer_list[1]    
+            selected_option = answer_list["selected_option"]  # A or B
+            if selected_option == 'A':
                 traverse(current_node.left)
-            else:
+            if selected_option == 'B':
                 traverse(current_node.right)
 
-        final_op = traverse(tree.root)
-        # print('The final option is', history)
-
+        traverse(tree.root)
+        # clear the last inputs because the last one is not complete
+        history.pop()
+        
         return history # the last position is the selected option
         
     
