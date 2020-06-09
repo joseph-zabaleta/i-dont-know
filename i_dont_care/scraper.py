@@ -10,13 +10,14 @@ from bs4 import BeautifulSoup
 
 def scrape_yelp(item):
     yelp_url = f'https://www.yelp.com/search?find_desc={item}&find_loc=seattle&ns=1'
+    print(yelp_url)
     resposne = requests.get(yelp_url)
     content = resposne.content
     soup = BeautifulSoup(content, "html.parser")
   
     result = soup.find_all('li', class_="lemon--li__373c0__1r9wz border-color--default__373c0__3-ifU")
 
-    with open('../assets/test-data', 'w+') as f:
+    with open('./assets/test-data.txt', 'w+') as f:
         for item in result:
 
             # result_name = soup.find_all('a', class_="lemon--a__373c0__IEZFH link__373c0__1G70M link-color--inherit__373c0__3dzpk link-size--inherit__373c0__1VFlE")

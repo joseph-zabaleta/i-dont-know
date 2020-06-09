@@ -201,8 +201,9 @@ class BinaryTree:
 
         traverse(tree.root)
         # clear the last inputs because the last one is not complete
-        history.pop()
+        # history.pop()
         
+        print(history)
         return history # the last position is the selected option
         
     
@@ -273,60 +274,62 @@ class Queue:
         return len(self.storage) == 0
 
 
-def create_tree(tree):
+def create_tree(tree, pref):
 
-# Breakfast Tree
-    tree.add(100, 'Do you want A) Fast food or B) Sit down?')
-    # Sit Down
-    tree.add(150, 'Cafe')
-    # Fast Food
-    tree.add(50, 'Do you want something sweet? A) Yes or B) No?')
-    # No to Sweet
-    tree.add(75, 'Coffee')
-    # Yes to Sweet
-    tree.add(25, 'Do you want want something A) Cheap or B) Fancy?')
-    # Cheap
-    tree.add(20, 'Donuts')
-    # Fancy
-    tree.add(30, 'Bakery')
+    if pref == 'A':
+    # Breakfast Tree
+        tree.add(100, 'Do you want A) Fast food or B) Sit down?')
+        # Sit Down
+        tree.add(150, 'Cafe')
+        # Fast Food
+        tree.add(50, 'Do you want something sweet? A) Yes or B) No?')
+        # No to Sweet
+        tree.add(75, 'Coffee')
+        # Yes to Sweet
+        tree.add(25, 'Do you want want something A) Cheap or B) Fancy?')
+        # Cheap
+        tree.add(20, 'Donuts')
+        # Fancy
+        tree.add(30, 'Bakery')
 
-# Lunch/Dinner Tree
-    tree.add(500, 'Do you want A) Meat or B) Seafood?')
-    
-    ### Seafood
-    tree.add(675, 'Do you want A) Fast food or B) Sit down?')
-    # Fast
-    tree.add(670, 'Poke')
-    # Sit Down
-    tree.add(685, 'Do you want your seafood A) raw or B) cooked?')
-    # Raw
-    tree.add(680, 'Sushi')
-    # Cooked
-    tree.add(690, 'Seafood')
+    if pref == 'B':
+    # Lunch/Dinner Tree
+        tree.add(500, 'Do you want A) Meat or B) Seafood?')
+        
+        ### Seafood
+        tree.add(675, 'Do you want A) Fast food or B) Sit down?')
+        # Fast
+        tree.add(670, 'Poke')
+        # Sit Down
+        tree.add(685, 'Do you want your seafood A) raw or B) cooked?')
+        # Raw
+        tree.add(680, 'Sushi')
+        # Cooked
+        tree.add(690, 'Seafood')
 
-    
-    ### Meat ###
-    tree.add(450, 'Do you want your meat A) No Spice or B) Spicy?')
-    ## Spicy ##
-    tree.add(460, 'Do you like curry A) Yes or B) No?')
-    # Yes to curry
-    tree.add(455, 'Indian')
-    # No to curry
-    tree.add(465, 'Do you like soup/broth A) Yes or B) No?')
-    # Yes to Soup/Broth
-    tree.add(464, 'Asian')
-    # No to Soupl/Broth
-    tree.add(466, 'Mexican')
-    ## No Spicy ##
-    tree.add(425, 'Do you want A) Fast food or B) Sit down?')
-    # Sit Down
-    tree.add(435, 'Diner')
-    # Fast
-    tree.add(410, 'Do you want a A) Sandwich or B) Burger?')
-    # Sandwich
-    tree.add(405, 'Delicatessen')
-    # Burger
-    tree.add(415, 'Burger')
+        
+        ### Meat ###
+        tree.add(450, 'Do you want your meat A) No Spice or B) Spicy?')
+        ## Spicy ##
+        tree.add(460, 'Do you like curry A) Yes or B) No?')
+        # Yes to curry
+        tree.add(455, 'Indian')
+        # No to curry
+        tree.add(465, 'Do you like soup/broth A) Yes or B) No?')
+        # Yes to Soup/Broth
+        tree.add(464, 'Asian')
+        # No to Soupl/Broth
+        tree.add(466, 'Mexican')
+        ## No Spicy ##
+        tree.add(425, 'Do you want A) Fast food or B) Sit down?')
+        # Sit Down
+        tree.add(435, 'Diner')
+        # Fast
+        tree.add(410, 'Do you want a A) Sandwich or B) Burger?')
+        # Sandwich
+        tree.add(405, 'Delicatessen')
+        # Burger
+        tree.add(415, 'Burger')
 
 
 
@@ -344,8 +347,9 @@ def create_tree(tree):
 
 
 def start_app():
+    preference = input('Is this for A) Breakfast B) Lunch/Dinner? ')
     bst = BinarySearchTree()
-    create_tree(bst)
+    create_tree(bst, preference)
     history = bst.prompt_questions(bst)
     return history[-1]
 
