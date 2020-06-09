@@ -170,7 +170,9 @@ class BinaryTree:
         """
         history = []
 
-        if tree.root == None : return 'Empty' # TODO: put a better return
+        if tree.root == None : 
+            raise Exception('The tree is empty')
+            return 
 
         def traverse(current_node):
             if not current_node : return
