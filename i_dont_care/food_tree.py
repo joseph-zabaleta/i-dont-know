@@ -221,7 +221,7 @@ def create_tree(tree):
     # Cheap
     tree.add(20, 'Donuts')
     # Fancy
-    tree.add(75, 'Bakery')
+    tree.add(30, 'Bakery')
 
 # Lunch/Dinner Tree
     tree.add(500, 'Do you want A) Meat or B) Seafood?')
