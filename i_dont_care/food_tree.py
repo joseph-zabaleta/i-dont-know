@@ -239,7 +239,7 @@ def create_tree(tree):
 
     
     ### Meat ###
-    tree.add(450, 'Do you want your meat A) Spicy or B) not Spicy?')
+    tree.add(450, 'Do you want your meat A) No Spice or B) Spicy?')
     ## Spicy ##
     tree.add(460, 'Do you like curry A) Yes or B) No?')
     # Yes to curry
