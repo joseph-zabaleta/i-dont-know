@@ -20,7 +20,7 @@ def get_users():
     """
     list_users = []
     order_history = get_history()
-    if len(order_history) == 0: 
+    if not order_history : 
         return list_users
 
     for order in order_history["orders"]:
@@ -31,11 +31,15 @@ def get_users():
 
 
 def display_orders_by_user():
+    """
+    Function which displays the numbers of orders by users, and the number of times
+    a specific food have been ordered.
+    """
     list_users = []
     list_orders = []
     order_history = get_history()
     
-    if len(order_history) == 0:
+    if not order_history :
         print('There are not orders saved yet....')
         return
     
@@ -100,47 +104,54 @@ def get_history():
     Returns all the ordering information in json style
     """
     try:
-      with open('./assets/orders_history.txt') as json_file:
-          history = json.load(json_file)
-          return history
+        with open('./assets/orders_history.txt') as json_file:
+            history = json.load(json_file)
+            return history
     except:
         return None
 
 
-def add_order_to_history(user, food):
-    today = date.today()
+def add_order_to_history(user, food, order_date = None):
+    if not order_date : order_date = date.today()
+
     # open the file and get the info
     order_history = get_history()
+    # print(order_history)
+    # return
     if not order_history:
         order_history = {} 
         order_history["orders"] = []
         order_history["orders"].append({
             "user" : user,
-            "date" : str(today),
+            "date" : str(order_date),
             "order" : food
         })
     else:
         # print (orders_file)
         order_history["orders"].append({
             "user" : user,
-            "date" : str(today),
+            "date" : str(order_date),
             "order" : food
         })
 
     with open('./assets/orders_history.txt', 'w') as outfile:
       json.dump(order_history, outfile)
 
-def load_dummy_data():
-    add_order_to_history('John', 'Indian')
-    add_order_to_history('Erich', 'Tai')
-    add_order_to_history('Gabriela', 'Mexican')
-    add_order_to_history('Marie', 'Italian')
-    add_order_to_history('Jonh', 'Hamburguers')
-    add_order_to_history('Erich', 'Carne Asada')
-    add_order_to_history('Erich', 'Hotcakes')
-    add_order_to_history('Marie', 'Tacos')
-    add_order_to_history('Jonh', 'Tacos')
 
+def load_dummy_data():
+    add_order_to_history('Skyler', 'Indian','2020-03-29')
+    add_order_to_history('JB', 'Tai','2020-04-15')
+    add_order_to_history('JB', 'Pizza','2020-04-15')
+    add_order_to_history('Ahmad', 'Mexican','2020-04-18')
+    add_order_to_history('Skyler', 'Italian','2020-05-03')
+    add_order_to_history('JB', 'Hamburguers','2020-05-14')
+    add_order_to_history('Aliya', 'Carne Asada','2020-05-19')
+    add_order_to_history('Skyler', 'Sushi','2020-05-22')
+    add_order_to_history('JB', 'Pizza','2020-05-24')
+    add_order_to_history('Ahmad', 'Tacos','2020-05-29')
+    add_order_to_history('JB', 'Tacos','2020-06-02')
+    add_order_to_history('Skyler', 'Hamburguers','2020-06-07')
+    add_order_to_history('Ahmad', 'Sushi','2020-06-09')
 
 
 if __name__ == "__main__":
@@ -150,6 +161,6 @@ if __name__ == "__main__":
     # print(get_history_list(True))
     # display_orders_history()
     # print("\n")
-    display_orders_by_user()
-    # print(get_users())
+    # display_orders_by_user()
+    print(get_users())
 
