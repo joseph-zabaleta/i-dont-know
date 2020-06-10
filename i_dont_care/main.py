@@ -43,7 +43,7 @@ def promp_user():
         print("\n\nWho is ordering today", names)
 
     while user == "":
-        user = input('\nPlease enter the user name who is going to choose today... ')
+        user = input('\nPlease enter the name of the person who is choosing today... ')
     
     return(user)
 
