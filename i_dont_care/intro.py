@@ -108,7 +108,7 @@ def main(stdscr):
                 break
         
             if current_row == 3:  # exit the program
-                status = 3
+                status = 404
                 print_center(stdscr, "Thanks!")
                 time.sleep(1.5)
                 break
