@@ -49,7 +49,6 @@ def print_history(stdscr):
     user_list, order_list, history_list = history.get_full_info()
     curses.init_pair(2, curses.COLOR_CYAN, 0)
     curses.init_pair(3, curses.COLOR_CYAN, 0)
-
     try:
         text = fig('Honey... I don\'t know', font='starwars')
         stdscr.attron(curses.color_pair(2))
@@ -57,26 +56,29 @@ def print_history(stdscr):
         stdscr.attroff(curses.color_pair(2))
     except curses.error:
         pass
-
     h, w = stdscr.getmaxyx()
-
     for idx, item in enumerate(user_list):
-        x = (w // 5) + 20
-        y = h // 3 + idx
+        x = 5
+        y = (h // 4) * 2 + 3 + idx
         if idx == 0:
-            stdscr.attron(curses.color_pair(3))
-            stdscr.addstr(y, x, item)
-            stdscr.attroff(curses.color_pair(3))
+            try:
+                stdscr.attron(curses.color_pair(3))
+                stdscr.addstr(y, x, item)
+                stdscr.attroff(curses.color_pair(3))
+            except curses.error:
+                pass
         elif idx % 2 == 0:
             try:
                 stdscr.addstr(y, x, item, curses.A_DIM)
             except curses.error:
                 pass
         else:
-            stdscr.addstr(y, x, item)
-
+            try:
+                stdscr.addstr(y, x, item)
+            except curses.error:
+                pass
     for idx, item in enumerate(order_list):
-        x = (w // 5) * 2 + 5
+        x = (w // 5) * 2
         y = h // 3 + idx
         if idx == 0:
             stdscr.attron(curses.color_pair(3))
@@ -88,10 +90,12 @@ def print_history(stdscr):
             except curses.error:
                 pass
         else:
-            stdscr.addstr(y, x, item)
-
+            try:
+                stdscr.addstr(y, x, item)
+            except curses.error:
+                pass
     for idx, item in enumerate(history_list):
-        x = (w // 5) * 3
+        x = (w // 5) * 3 + 10
         y = h // 3 + idx
         if idx == 0:
             stdscr.attron(curses.color_pair(3))
@@ -103,8 +107,10 @@ def print_history(stdscr):
             except curses.error:
                 pass
         else:
-            stdscr.addstr(y, x, item)
-
+            try:
+                stdscr.addstr(y, x, item)
+            except curses.error:
+                pass
     stdscr.refresh()
 
 def print_center(stdscr, text):

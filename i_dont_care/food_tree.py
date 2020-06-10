@@ -1,7 +1,7 @@
-from collections import deque
+# from collections import deque
 
 #this is needed for city geo location
-import requests
+# import requests
 
 
 class Node:
@@ -25,104 +25,7 @@ class BinaryTree:
 
         return f"The root is {self.root.value}"
 
-    def preOrder(self):
-        list_return = []
-
-        if self.root == None:
-            return list_return
-
-        def traverse(current_node):
-            if not current_node:
-                return
-
-            list_return.append(current_node.food)
-            traverse(current_node.left)
-            traverse(current_node.right)
-
-        traverse(self.root)
-
-        return list_return
-
-    def inOrder(self):
-        list_return = []
-
-        if self.root == None:
-            return list_return
-
-        def traverse(current_node):
-            if not current_node:
-                return
-
-            traverse(current_node.left)
-            list_return.append(current_node.food)
-            traverse(current_node.right)
-
-        traverse(self.root)
-        return list_return
-
-    def postOrder(self):
-        list_return = []
-
-        if not self.root:
-            return list_return
-
-        def traverse(current_node):
-            if not current_node:
-                return
-
-            traverse(current_node.left)
-            traverse(current_node.right)
-            list_return.append(current_node.food)
-
-        traverse(self.root)
-
-        return list_return
-
-    # added
-    def BreadthFirst(self, tree):
-        list_return = []
-
-        if not tree.root:
-            return "The Tree is empty."
-
-        breadth = Queue()
-
-        breadth.enqueue(tree.root)
-
-        while not breadth.is_empty():
-            front = breadth.dequeue()
-            list_return.append(front.question)
-
-            if front.left:
-                breadth.enqueue(front.left)
-
-            if front.right:
-                breadth.enqueue(front.right)
-
-        return list_return
-
-    # added Jun 3rd, Challenge 18
-    def FindMaximumValue(self):
-        if self.root == None:
-            return None
-
-        current_max_value = self.root.value
-
-        def traverse(current_node):
-            nonlocal current_max_value
-            if not current_node:
-                return
-
-            if current_node.value > current_max_value:
-                current_max_value = current_node.value
-
-            traverse(current_node.left)
-            traverse(current_node.right)
-
-        traverse(self.root)
-
-        return current_max_value
-
+ 
     def validate_answer(self, prompt, answer):
         return_dict = {
             "is_valid": "",
@@ -214,7 +117,6 @@ class BinaryTree:
 
             history.append(answer_list["word_selected_option"])
 
-            # selected_option = answer_list[1]
             selected_option = answer_list["selected_option"]  # A or B
             if selected_option == "A":
                 traverse(current_node.left)
@@ -222,10 +124,7 @@ class BinaryTree:
                 traverse(current_node.right)
 
         traverse(tree.root)
-        # clear the last inputs because the last one is not complete
-        # history.pop()
 
-        # print(history)
         return history  # the last position is the selected option
 
 
@@ -261,40 +160,7 @@ class BinarySearchTree(BinaryTree):
 
         traverse(self.root, new_node)
 
-    def contains(self, value):
-        if not self.root:
-            return False
-
-        def traverse(current_node, value_to_search):
-            if not current_node:
-                return False
-            if current_node.value == value_to_search:
-                return True
-            else:
-                if value_to_search < current_node.value:
-                    return traverse(current_node.left, value_to_search)
-                else:
-                    return traverse(current_node.right, value_to_search)
-
-        return traverse(self.root, value)
-
-
-class Queue:
-    def __init__(self):
-        self.storage = deque()
-
-    def enqueue(self, value):
-        self.storage.appendleft(value)
-
-    def dequeue(self):
-        if not self.is_empty():
-            return self.storage.pop()
-
-    def peek(self):
-        return self.storage[-1]
-
-    def is_empty(self):
-        return len(self.storage) == 0
+ 
 
 
 def create_tree(tree, pref):
@@ -362,6 +228,20 @@ def start_app():
     bst = BinarySearchTree()
     validate_answer = False
 
+    # # City/Area location
+
+    # # option 1 - manual prompt
+    # # city_prompt = "What city do you live in?"
+    
+    # # option 2 - ip address
+    # # Mad respect to :https://www.youtube.com/watch?v=OlSQ2TEP3oc
+    # res = requests.get('https://ipinfo.io/')
+    # # print(res.text)
+    # data = res.json()
+    # city_prompt = data['city']
+    # return (city_prompt)
+    
+    
     
     prompt = "Is this for A) Breakfast B) Lunch/Dinner? "
     while not validate_answer:    
@@ -372,3 +252,4 @@ def start_app():
     create_tree(bst, preference_validation["word_selected_option"])
     history = bst.prompt_questions(bst)
     return history[-1]
+

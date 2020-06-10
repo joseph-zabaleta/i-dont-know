@@ -1,7 +1,7 @@
 import requests
 import time 
 from bs4 import BeautifulSoup
-
+from i_dont_care import main
 
 def get_location():
 
@@ -98,6 +98,14 @@ def scrape_yelp(item):
             continue
         print('PRICE: ', price.next_element)
 
+    # Return to main menu
+    print("\n" + "*+*"*50)
+    print("*+*"*50)
+    something = input('Press enter to return to the main menu.')
+
+    if something or not something:
+        main.start_app()
+    
         # html: TODO: find the url
         # yelp_url = item.find("a", class_="lemon--a__373c0__IEZFH link__373c0__1G70M link-color--inherit__373c0__3dzpk link-size--inherit__373c0__1VFlE")
         # print(yelp_url.next_element.href.text.strip())
