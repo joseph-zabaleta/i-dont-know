@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 
 def get_location():
+    #city_prompt
     return 'seattle'
 
 
