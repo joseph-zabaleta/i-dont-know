@@ -72,9 +72,10 @@ def display_orders_history():
         print('There are not orders saved yet....')
         return
     
+    print("\n\n")
     print('These are the orders so far...\n\n')
     for order in order_list:
-        print(order + "\n")
+        print(order)
 
 
 
@@ -150,3 +151,6 @@ def load_dummy_data():
     add_order_to_history('Ahmad', 'Sushi','2020-06-09')
 
 
+if __name__ == "__main__":
+    display_orders_by_user()
+    display_orders_history()
