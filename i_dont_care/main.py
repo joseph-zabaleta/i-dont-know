@@ -50,7 +50,9 @@ def promp_user():
 
 def get_random_food():
     food_list = ['Donuts', 'Hamburger', 'Pizza', 'Pastry', 'Italian', 'Tacos', 'Pasta', 'Meat', 'Fishfood', 'Fish tacos', 
-        'Chicken', 'Lobster', 'Sandwich', 'BBQ', 'Mexican', 'Soup', 'Thai', 'Indian', 'Lebanese', 'Chinese', 'Japanese' ]
+        'Chicken', 'Lobster', 'Sandwich', 'BBQ', 'Mexican', 'Soup', 'Thai', 'Indian', 'Lebanese', 'Chinese', 'Japanese',
+        'Noddle' ,'Wings' ,'Bakery' ,'Vegeratian' ,'American' ,'Ramen' ,'Korean' , 'Poke', 'Tex-Mex', 'Southern', 'Salad',
+        'Noodles', 'Creperies' , 'Barbeque', 'Greek']
 
     random_index = randint(0,len(food_list))
     
@@ -58,14 +60,7 @@ def get_random_food():
 
 
 
- 
-
 if __name__ == "__main__":
-
-    # search_query = get_random_food()
-
-    # print(search_query)
-
     status = curses.wrapper(intro.main)
 
     if status == 0:
