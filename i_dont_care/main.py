@@ -49,10 +49,10 @@ def promp_user():
 
 
 if __name__ == "__main__":
-
     if curses.wrapper(intro.main): # TODO: IRIS, un comment this
         show_last_orders()
         user = promp_user()
+
         search_query = (food_tree.start_app())  # make sure there is a return at the end of one value
         results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
 
