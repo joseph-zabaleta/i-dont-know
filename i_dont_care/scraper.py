@@ -4,11 +4,29 @@ from bs4 import BeautifulSoup
 
 
 def get_location():
-    #city_prompt
-    return 'seattle'
+
+    # # City/Area location
+
+    # # option 1 - manual prompt
+    # # city_prompt = "What city do you live in?"
+    
+    # # option 2 - ip address
+    # # Mad respect to :https://www.youtube.com/watch?v=OlSQ2TEP3oc
+    res = requests.get('https://ipinfo.io/')
+    # # print(res.text)
+    data = res.json()
+    city_prompt = data['city']
+
+    change = input("\n\nWe are going to search for restaurants in " + city_prompt + " do you whant to change location? (yes/no) ")
+    if change.upper() == 'YES':
+        city_prompt = ""
+        while city_prompt == "":
+            city_prompt = input("Please enter the locaction to search for... ")        
+
+    return (city_prompt)
 
 
-#this works
+
 def scrape_yelp(item):
 
     area = get_location()
