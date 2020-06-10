@@ -362,7 +362,7 @@ def start_app():
     bst = BinarySearchTree()
     validate_answer = False
 
-    # # City location
+    # # City/Area location
 
     # # option 1 - manual prompt
     # # city_prompt = "What city do you live in?"
