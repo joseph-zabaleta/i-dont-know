@@ -1,3 +1,4 @@
+import os 
 from random import randint
 import curses
 from i_dont_care import (
@@ -5,12 +6,11 @@ from i_dont_care import (
     food_tree,
     scraper,
     history
-    # show_results,
-    # exit
 )
 
 
 def show_last_orders():
+    os.system('cls' if os.name == 'nt' else 'clear')
     order_list = history.get_history_list(True)
 
     if len(order_list) == 0 : return
@@ -58,9 +58,7 @@ def get_random_food():
     
     return food_list[random_index]
 
-
-
-if __name__ == "__main__":
+def start_app():
     status = curses.wrapper(intro.main)
 
     if status == 0:
@@ -68,14 +66,19 @@ if __name__ == "__main__":
         show_last_orders()
         user = promp_user()
         search_query = (food_tree.start_app())  # make sure there is a return at the end of one value
-        results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
         history.add_order_to_history(user, search_query)
+        results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
 
     elif status == 3:
+        
         show_last_orders()
         user = promp_user()
         search_query =  get_random_food()
-        results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
         history.add_order_to_history(user, search_query)
+        results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
 
-    # exit.goodbye() which runs the thank you message / closes program
+
+
+if __name__ == "__main__":
+    start_app()
+
