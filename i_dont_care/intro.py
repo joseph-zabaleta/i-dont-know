@@ -19,10 +19,10 @@ def print_menu(stdscr, selected_row_idx):
 
     curses.init_pair(2, curses.COLOR_CYAN, 0)
 
-    # text = fig('Honey... I don\'t know', font='starwars')
-    # stdscr.attron(curses.color_pair(2))
-    # stdscr.addstr(0, 0, text)
-    # stdscr.attroff(curses.color_pair(2))
+    text = fig('Honey... I don\'t know', font='starwars')
+    stdscr.attron(curses.color_pair(2))
+    stdscr.addstr(0, 0, text)
+    stdscr.attroff(curses.color_pair(2))
     
 
     h, w = stdscr.getmaxyx()
