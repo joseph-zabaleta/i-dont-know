@@ -13,13 +13,27 @@ def get_unique_list_values(list_to_review):
             unique_list.append(item) 
 
     return unique_list
-      
+
+def get_users():
+    """
+    This function returns a list with the names of the users who have placed orders.
+    """
+    list_users = []
+    order_history = get_history()
+    if len(order_history) == 0: 
+        return list_users
+
+    for order in order_history["orders"]:
+        list_users.append(order["user"])
+    
+    return get_unique_list_values(list_users)
+
+
 
 def display_orders_by_user():
     list_users = []
     list_orders = []
     order_history = get_history()
-    # print(order_history["orders"])
     
     if len(order_history) == 0:
         print('There are not orders saved yet....')
@@ -31,12 +45,19 @@ def display_orders_by_user():
     
     unique_users_names = get_unique_list_values(list_users)
     unique_food_names = get_unique_list_values(list_orders)
-    print(unique_users_names)
-    print(unique_food_names)
 
-    # x = (list_users)
-    # print(x.count("Erich"))
-    # print(list_orders)
+    # create tupples to use count method
+    tupple_users = (list_users)
+    print("Number of order by user... \n")
+    for user in unique_users_names:
+        print("     " + user + " has ordered " + str(tupple_users.count(user)) + " times.")
+
+    # create tupples to use count method
+    tupple_orders = (list_orders)
+    print("\n\n")
+    print("Number of orders by type... \n")
+    for food in unique_food_names:
+        print("     " + food + " has been ordered " + str(tupple_orders.count(food)) + " times.")
 
 
 
@@ -118,6 +139,7 @@ def load_dummy_data():
     add_order_to_history('Erich', 'Carne Asada')
     add_order_to_history('Erich', 'Hotcakes')
     add_order_to_history('Marie', 'Tacos')
+    add_order_to_history('Jonh', 'Tacos')
 
 
 
@@ -127,6 +149,7 @@ if __name__ == "__main__":
     # print("\n *********")
     # print(get_history_list(True))
     # display_orders_history()
+    # print("\n")
     display_orders_by_user()
-
+    # print(get_users())
 
