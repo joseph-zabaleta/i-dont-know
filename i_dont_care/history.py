@@ -2,6 +2,44 @@ import json
 from datetime import date
 
 
+# function to get unique values 
+def get_unique_list_values(list_to_review):     
+    unique_list = [] 
+      
+    # traverse for all elements 
+    for item in list_to_review: 
+        # check if exists in unique_list or not 
+        if item not in unique_list: 
+            unique_list.append(item) 
+
+    return unique_list
+      
+
+def display_orders_by_user():
+    list_users = []
+    list_orders = []
+    order_history = get_history()
+    # print(order_history["orders"])
+    
+    if len(order_history) == 0:
+        print('There are not orders saved yet....')
+        return
+    
+    for order in order_history["orders"]:
+        list_users.append(order["user"])
+        list_orders.append(order["order"])
+    
+    unique_users_names = get_unique_list_values(list_users)
+    unique_food_names = get_unique_list_values(list_orders)
+    print(unique_users_names)
+    print(unique_food_names)
+
+    # x = (list_users)
+    # print(x.count("Erich"))
+    # print(list_orders)
+
+
+
 def display_orders_history():
     order_list = get_history_list(True)
 
@@ -37,6 +75,9 @@ def get_history_list(reversed = None):
 
 
 def get_history():
+    """
+    Returns all the ordering information in json style
+    """
     try:
       with open('./assets/orders_history.txt') as json_file:
           history = json.load(json_file)
@@ -85,6 +126,7 @@ if __name__ == "__main__":
     # print(get_history_list())
     # print("\n *********")
     # print(get_history_list(True))
-    display_orders_history()
+    # display_orders_history()
+    display_orders_by_user()
 
 
