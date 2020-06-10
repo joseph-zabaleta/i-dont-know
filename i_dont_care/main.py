@@ -1,3 +1,4 @@
+from random import randint
 import curses
 from i_dont_care import (
     intro,
@@ -42,18 +43,24 @@ def promp_user():
         print("\n\nWho is ordering today", names)
 
     while user == "":
-        user = input('\nPlease enter the user name who is going to choose today... ')
+        user = input('\nPlease enter the name of the person who is choosing today... ')
     
     return(user)
 
 
 def get_random_food():
-    food_list = ['donuts', 'hamburgers']
+    food_list = ['Donuts', 'Hamburger', 'Pizza', 'Pastry', 'Italian', 'Tacos', 'Pasta', 'Meat', 'Fishfood', 'Fish tacos', 
+        'Chicken', 'Lobster', 'Sandwich', 'BBQ', 'Mexican', 'Soup', 'Thai', 'Indian', 'Lebanese', 'Chinese', 'Japanese',
+        'Noddle' ,'Wings' ,'Bakery' ,'Vegeratian' ,'American' ,'Ramen' ,'Korean' , 'Poke', 'Tex-Mex', 'Southern', 'Salad',
+        'Noodles', 'Creperies' , 'Barbeque', 'Greek']
+
+    random_index = randint(0,len(food_list))
+    
+    return food_list[random_index]
 
 
 
 if __name__ == "__main__":
-
     status = curses.wrapper(intro.main)
 
     if status == 0:
@@ -67,17 +74,8 @@ if __name__ == "__main__":
     elif status == 3:
         show_last_orders()
         user = promp_user()
-        search_query = 'Donuts'
+        search_query =  get_random_food()
         results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
         history.add_order_to_history(user, search_query)
-
-    #     # show_results.show() which renders all the results of the search
-
-    # history.display_orders_history()
-
-
-    #     # show_results.show() which renders all the results of the search
-
-
 
     # exit.goodbye() which runs the thank you message / closes program

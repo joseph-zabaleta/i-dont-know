@@ -17,11 +17,12 @@ def get_location():
     data = res.json()
     city_prompt = data['city']
 
-    change = input("\n\nWe are going to search for restaurants in " + city_prompt + " do you whant to change location? (yes/no) ")
-    if change.upper() == 'YES':
+    print("\n\n")
+    change = input("We are going to search for restaurants in " + city_prompt + " do you whant to change location? (yes/no) ")
+    if change.upper() == 'YES' or change.upper() == 'Y':
         city_prompt = ""
         while city_prompt == "":
-            city_prompt = input("Please enter the locaction to search for... ")        
+            city_prompt = input("Please enter the location to search in... ")        
 
     return (city_prompt)
 
@@ -30,7 +31,7 @@ def get_location():
 def scrape_yelp(item):
 
     area = get_location()
-    print (f"\n Searching information of {item} in {area}...\n")
+    print (f"\nSearching information of {item} in {area}...\n")
     time.sleep(1)
     yelp_url = f'https://www.yelp.com/search?find_desc={item}&find_loc={area}&ns=1'
 
