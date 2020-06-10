@@ -10,6 +10,7 @@ import curses
 # ASCII Art Libraries
 from termcolor import cprint
 from pyfiglet import figlet_format as fig
+from i_dont_care import history
 
 menu = ["Start", "History(Coming Soon)", "Random(Coming Soon)", "Exit"]
 
@@ -18,12 +19,14 @@ def print_menu(stdscr, selected_row_idx):
     stdscr.clear()
 
     curses.init_pair(2, curses.COLOR_CYAN, 0)
-
-    # text = fig('Honey... I don\'t know', font='starwars')
-    # stdscr.attron(curses.color_pair(2))
-    # stdscr.addstr(0, 0, text)
-    # stdscr.attroff(curses.color_pair(2))
     
+    try:
+        text = fig('Honey... I don\'t know', font='starwars')
+        stdscr.attron(curses.color_pair(2))
+        stdscr.addstr(0, 0, text)
+        stdscr.attroff(curses.color_pair(2))
+    except curses.error:
+        pass
 
     h, w = stdscr.getmaxyx()
     for idx, row in enumerate(menu):
@@ -37,6 +40,26 @@ def print_menu(stdscr, selected_row_idx):
             stdscr.addstr(y, x, row)
     stdscr.refresh()
 
+def print_history(stdscr):
+    stdscr.clear()
+    order_list = history.get_history_list(True)
+    curses.init_pair(2, curses.COLOR_CYAN, 0)
+    
+    try:
+        text = fig('Honey... I don\'t know', font='starwars')
+        stdscr.attron(curses.color_pair(2))
+        stdscr.addstr(0, 0, text)
+        stdscr.attroff(curses.color_pair(2))
+    except curses.error:
+        pass
+
+    h, w = stdscr.getmaxyx()
+    for idx, item in enumerate(order_list):
+        # x = w // 2 - len(item) // 2
+        x = w // 2
+        y = h // 2 - len(order_list) // 2 + idx
+        stdscr.addstr(y, x, item)
+    stdscr.refresh()
 
 def print_center(stdscr, text):
     stdscr.clear()
@@ -53,7 +76,7 @@ def main(stdscr):
     current_row = 0  # default row to start on
     print_menu(stdscr, current_row)  # print the main menu
 
-    status = True
+    status = 0
 
     while True:
         key = stdscr.getch()
@@ -71,17 +94,23 @@ def main(stdscr):
                 time.sleep(3)
                 break
 
-            if current_row == 1 or current_row == 2:
-                print_center(
-                    stdscr,
-                    "Sorry! '{}' is still be developed".format(menu[current_row]),
-                )
+            if current_row == 1:
+                status = 1
+                print_history(stdscr)
                 stdscr.getch()
-
+            
+            if current_row == 2:
+                status = 3
+                stdscr.clear()
+                print_center(stdscr, "Selecting Random Food...")
+                stdscr.refresh()
+                time.sleep(1)
+                break
+        
             if current_row == 3:  # exit the program
+                status = 3
                 print_center(stdscr, "Thanks!")
                 time.sleep(1.5)
-                status = False
                 break
 
         print_menu(stdscr, current_row)

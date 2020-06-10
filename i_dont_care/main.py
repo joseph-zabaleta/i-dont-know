@@ -49,15 +49,22 @@ def promp_user():
 
 
 if __name__ == "__main__":
-    if curses.wrapper(intro.main): # TODO: IRIS, un comment this
+    status = curses.wrapper(intro.main)
+
+    if status == 0:
         show_last_orders()
         user = promp_user()
-
         search_query = (food_tree.start_app())  # make sure there is a return at the end of one value
         results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
+        history.add_order_to_history(user, search_query)
+    elif status == 3:
+        show_last_orders()
+        user = promp_user()
+        search_query = 'Donuts'
+        results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
+        history.add_order_to_history(user, search_query)
 
     #     # show_results.show() which renders all the results of the search
 
-        history.add_order_to_history(user, search_query)
     # history.display_orders_history()
     # exit.goodbye() which runs the thank you message / closes program
