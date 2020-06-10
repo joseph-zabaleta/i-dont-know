@@ -47,6 +47,10 @@ def promp_user():
     return(user)
 
 
+def get_random_food():
+    food_list = ['donuts', 'hamburgers']
+
+
 
 if __name__ == "__main__":
 

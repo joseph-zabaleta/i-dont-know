@@ -2,6 +2,58 @@ import json
 from datetime import date
 
 
+def get_full_info():
+    """
+    This method return a array with 3 elements, each element is a list, 
+    where possition 0 is the title of the list: 
+    array in position 0:  Number of orders by user
+    array in position 1:  List of orders by food category
+    array in position 2:  These are all the orders realizaded
+    """
+    list_return = []
+    list_users = [] # internal working list
+    list_orders = []  #i nternal working list
+    list_users_return = [] # this is the returning array, in list_return, at position 0. Number of orders by user
+    list_orders_return = [] # this is the returning array, list_return, at position 1. List of orders by food category
+    list_history_return = [] # this is the returning array, list_return, at position 2. These are all the orders realizaded
+
+    order_history = get_history()
+    
+    if not order_history :
+        return list_return
+    
+
+    for order in order_history["orders"]:
+        list_users.append(order["user"])
+        list_orders.append(order["order"])
+    
+    unique_users_names = get_unique_list_values(list_users)
+    unique_food_names = get_unique_list_values(list_orders)
+
+    # fillin list_users_return
+    tupple_users = (list_users)  # create tupples to use count method
+    list_users_return.append('Number of orders by user')
+    for user in unique_users_names:
+        list_users_return.append(user + " has ordered " + str(tupple_users.count(user)) + " times.")
+
+
+    # Filling list_orders_return
+    list_orders_return.append("List of orders by food category")    
+    tupple_orders = (list_orders) # create tupples to use count method
+    for food in unique_food_names:
+        list_orders_return.append(food + " has been ordered " + str(tupple_orders.count(food)) + " times.")
+
+    # Filling list_history_return
+    list_history_return = get_history_list(True)
+    list_history_return.insert(0, "These are all the orders realizaded")
+
+    list_return.append(list_users_return)
+    list_return.append(list_orders_return)
+    list_return.append(list_history_return)
+
+    return list_return
+
+
 # function to get unique values 
 def get_unique_list_values(list_to_review):     
     unique_list = [] 
@@ -150,7 +202,3 @@ def load_dummy_data():
     add_order_to_history('Skyler', 'Hamburguers','2020-06-07')
     add_order_to_history('Ahmad', 'Sushi','2020-06-09')
 
-
-if __name__ == "__main__":
-    display_orders_by_user()
-    display_orders_history()
