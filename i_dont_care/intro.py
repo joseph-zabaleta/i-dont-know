@@ -12,10 +12,12 @@ from termcolor import cprint
 from pyfiglet import figlet_format as fig
 from i_dont_care import history
 
-menu = ["Start", "History(Coming Soon)", "Random(Coming Soon)", "Exit"]
-
+# Menu items on intro page of application
+menu = ["Start", "History of Orders", "Random Order", "Exit"]
 
 def print_menu(stdscr, selected_row_idx):
+    """This prints the main menu on the screen using cureses library
+    """
     stdscr.clear()
 
     curses.init_pair(2, curses.COLOR_CYAN, 0)
@@ -41,10 +43,13 @@ def print_menu(stdscr, selected_row_idx):
     stdscr.refresh()
 
 def print_history(stdscr):
+    """Prints the history part of the menu, creating three lists for each type of history data we are saving
+    """
     stdscr.clear()
-    order_list = history.get_history_list(True)
+    user_list, order_list, history_list = history.get_full_info()
     curses.init_pair(2, curses.COLOR_CYAN, 0)
-    
+    curses.init_pair(3, curses.COLOR_CYAN, 0)
+
     try:
         text = fig('Honey... I don\'t know', font='starwars')
         stdscr.attron(curses.color_pair(2))
@@ -54,14 +59,57 @@ def print_history(stdscr):
         pass
 
     h, w = stdscr.getmaxyx()
+
+    for idx, item in enumerate(user_list):
+        x = (w // 5) + 20
+        y = h // 3 + idx
+        if idx == 0:
+            stdscr.attron(curses.color_pair(3))
+            stdscr.addstr(y, x, item)
+            stdscr.attroff(curses.color_pair(3))
+        elif idx % 2 == 0:
+            try:
+                stdscr.addstr(y, x, item, curses.A_DIM)
+            except curses.error:
+                pass
+        else:
+            stdscr.addstr(y, x, item)
+
     for idx, item in enumerate(order_list):
-        # x = w // 2 - len(item) // 2
-        x = w // 2
-        y = h // 2 - len(order_list) // 2 + idx
-        stdscr.addstr(y, x, item)
+        x = (w // 5) * 2 + 5
+        y = h // 3 + idx
+        if idx == 0:
+            stdscr.attron(curses.color_pair(3))
+            stdscr.addstr(y, x, item)
+            stdscr.attroff(curses.color_pair(3))
+        elif idx % 2 == 0:
+            try:
+                stdscr.addstr(y, x, item, curses.A_DIM)
+            except curses.error:
+                pass
+        else:
+            stdscr.addstr(y, x, item)
+
+    for idx, item in enumerate(history_list):
+        x = (w // 5) * 3
+        y = h // 3 + idx
+        if idx == 0:
+            stdscr.attron(curses.color_pair(3))
+            stdscr.addstr(y, x, item)
+            stdscr.attroff(curses.color_pair(3))
+        elif idx % 2 == 0:
+            try:
+                stdscr.addstr(y, x, item, curses.A_DIM)
+            except curses.error:
+                pass
+        else:
+            stdscr.addstr(y, x, item)
+
     stdscr.refresh()
 
 def print_center(stdscr, text):
+    """Print single message message in the center of the terminal
+    """
     stdscr.clear()
     h, w = stdscr.getmaxyx()
     x = w // 2 - len(text) // 2
@@ -69,8 +117,9 @@ def print_center(stdscr, text):
     stdscr.addstr(y, x, text)
     stdscr.refresh()
 
-
 def main(stdscr):
+    """This is the main launch function for the curses libraby, it will launch all other functions. Main is passed into the curses.wrapper() as a parameter.
+    """
     curses.curs_set(0)  # turns blinker on (1) off (0)
     curses.init_pair(1, curses.COLOR_BLACK, curses.COLOR_WHITE)  # color scheme, (foreground, then background color)
     current_row = 0  # default row to start on
@@ -115,6 +164,3 @@ def main(stdscr):
 
         print_menu(stdscr, current_row)
     return status
-
-
-# result = curses.wrapper(main)
