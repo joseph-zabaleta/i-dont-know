@@ -154,7 +154,7 @@ def load_dummy_data():
     add_order_to_history('Ahmad', 'Sushi','2020-06-09')
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # load_dummy_data()
     # print(get_history_list())
     # print("\n *********")
@@ -162,5 +162,5 @@ if __name__ == "__main__":
     # display_orders_history()
     # print("\n")
     # display_orders_by_user()
-    print(get_users())
+    # print(get_users())
 
