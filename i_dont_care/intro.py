@@ -17,9 +17,13 @@ menu = ["Start", "History(Coming Soon)", "Random(Coming Soon)", "Exit"]
 def print_menu(stdscr, selected_row_idx):
     stdscr.clear()
 
-    # text = fig('Honey... I don\'t know', font='starwars')
-    # stdscr.addstr(0, 0, text)
-    # stdscr.refresh()
+    curses.init_pair(2, curses.COLOR_CYAN, 0)
+
+    text = fig('Honey... I don\'t know', font='starwars')
+    stdscr.attron(curses.color_pair(2))
+    stdscr.addstr(0, 0, text)
+    stdscr.attroff(curses.color_pair(2))
+    
 
     h, w = stdscr.getmaxyx()
     for idx, row in enumerate(menu):
@@ -45,9 +49,7 @@ def print_center(stdscr, text):
 
 def main(stdscr):
     curses.curs_set(0)  # turns blinker on (1) off (0)
-    curses.init_pair(
-        1, curses.COLOR_BLACK, curses.COLOR_WHITE
-    )  # color scheme, (foreground, then background color)
+    curses.init_pair(1, curses.COLOR_BLACK, curses.COLOR_WHITE)  # color scheme, (foreground, then background color)
     current_row = 0  # default row to start on
     print_menu(stdscr, current_row)  # print the main menu
 
@@ -78,7 +80,7 @@ def main(stdscr):
 
             if current_row == 3:  # exit the program
                 print_center(stdscr, "Thanks!")
-                time.sleep(3)
+                time.sleep(1.5)
                 status = False
                 break
 

@@ -1,4 +1,5 @@
 import requests
+import time 
 from bs4 import BeautifulSoup
 
 
@@ -11,6 +12,7 @@ def scrape_yelp(item):
 
     area = get_location()
     print (f"\n Searching information of {item} in {area}...\n")
+    time.sleep(1)
     yelp_url = f'https://www.yelp.com/search?find_desc={item}&find_loc={area}&ns=1'
 
     # print(yelp_url)
@@ -24,12 +26,13 @@ def scrape_yelp(item):
     print('************ SEARCH RESULTS....\n')
     # with open('./assets/test-data.txt', 'w+') as f:        
     for item in result[4:]:
-        print("***************")
+        
         # getting the names
         name = item.find('a', class_="lemon--a__373c0__IEZFH link__373c0__1G70M link-color--inherit__373c0__3dzpk link-size--inherit__373c0__1VFlE")
         if not name : 
             continue
-
+        print("\n")
+        print("***************")
         print('RESTAURANT: ' + name.next_element)
         # phone
         phone = item.find('p', class_="lemon--p__373c0__3Qnnj text__373c0__2Kxyz text-color--black-extra-light__373c0__2OyzO text-align--right__373c0__1f0KI text-size--small__373c0__3NVWO")
@@ -45,14 +48,23 @@ def scrape_yelp(item):
         if not address1 : 
             continue
 
-        address1 = address1.next_element            
+        address1 = address1.next_element 
+        address1 = str(address1)  
+
+        if address1[0] == '<':
+            start_idx = address1.find('>') + 1
+            end_idx = address1[1].find('<') - 3
+            address1 = address1[start_idx:end_idx]
+
         print('ADDRESS: ' + address1)
 
         # address2 NOT ACCURATE: TODO: Find address2
         address2 = item.find_all('p', class_="lemon--p__373c0__3Qnnj text__373c0__2Kxyz text-color--black-extra-light__373c0__2OyzO text-align--right__373c0__1f0KI text-size--small__373c0__3NVWO")
         address2 = address2[-1].text.strip()
+       
+
         if address1 not in address2:
-            print(address2)
+            print('AREA: ' + address2)
 
 
         # reviews
@@ -70,6 +82,6 @@ def scrape_yelp(item):
         # yelp_url = item.find("a", class_="lemon--a__373c0__IEZFH link__373c0__1G70M link-color--inherit__373c0__3dzpk link-size--inherit__373c0__1VFlE")
         # print(yelp_url.next_element.href.text.strip())
 
-        print("\n")
+        
 
     

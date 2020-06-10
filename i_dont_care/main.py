@@ -11,13 +11,9 @@ from i_dont_care import (
 if __name__ == "__main__":
 
     if curses.wrapper(intro.main):
-        search_query = (
-            food_tree.start_app()
-        )  # make sure there is a return at the end of one value
+        search_query = (food_tree.start_app())  # make sure there is a return at the end of one value
 
-        results = scraper.scrape_yelp(
-            search_query
-        )  # searches yelp and gets/returns results
+        results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
 
         # show_results.show() which renders all the results of the search
 

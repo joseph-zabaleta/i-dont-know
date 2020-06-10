@@ -128,17 +128,25 @@ class BinaryTree:
             "prompt": "",
         }
 
+
         original_prompt = prompt
+
         prompt = prompt.replace(" or ", "")
         prompt = prompt.replace("?", "")
         prompt = prompt.replace(".", "")
+
         # obtain question A and B
         pos_opt_A = prompt.find("A)") + 2
         pos_opt_B = prompt.find("B)")
-        question_A = prompt[pos_opt_A:pos_opt_B].strip()
-        pos_opt_B += 2
-        question_B = prompt[pos_opt_B:].strip()
 
+        if len(original_prompt.split()) == 1:
+            question_A = question_B = original_prompt
+        else:
+            question_A = prompt[pos_opt_A:pos_opt_B].strip()
+            pos_opt_B += 2
+            question_B = prompt[pos_opt_B:].strip()
+
+        # all A answers
         possible_answers_A = []
         possible_answers_A.append("a")
         possible_answers_A.append("A")
@@ -147,6 +155,8 @@ class BinaryTree:
         possible_answers_A.append(question_A.upper())
         possible_answers_A.append(question_A.lower())
         possible_answers_A.append("Im leaf")
+
+        # all B answers
         possible_answers_B = []
         possible_answers_B.append("b")
         possible_answers_B.append("B")
@@ -212,7 +222,7 @@ class BinaryTree:
         # clear the last inputs because the last one is not complete
         # history.pop()
 
-        print(history)
+        # print(history)
         return history  # the last position is the selected option
 
 
@@ -288,7 +298,7 @@ def create_tree(tree, pref):
     """This will create the initial tree for the application to run off. It has two required arguments, a Binary Search Tree and a preference of breakfast or lunch/dinner.
     """
 
-    if pref == "A":
+    if pref == "Breakfast":
         # Breakfast Tree
         tree.add(100, "Do you want A) Fast food or B) Sit down?")
         # Sit Down
@@ -304,7 +314,7 @@ def create_tree(tree, pref):
         # Fancy
         tree.add(30, "Bakery")
 
-    if pref == "B":
+    if pref == "Lunch/Dinner":
         # Lunch/Dinner Tree
         tree.add(500, "Do you want A) Meat or B) Seafood?")
 
@@ -343,24 +353,18 @@ def create_tree(tree, pref):
         tree.add(415, "Burger")
 
 
-#### 6/8 Original
-# #  Left
-# tree.add(1000, 'Do you want A) Fast food or B) Sit down')
-# tree.add(500, 'A) Sandwich or B) Cheesburger')
-# tree.add(450, 'Sandwich')
-# tree.add(750, 'Cheesburger')
-
-# #  right
-# tree.add(1500, 'Do you want A) Mexican or B) French')
-# tree.add(1250, 'Mexican')
-# tree.add(1750, 'French')
-
-
 def start_app():
     """ Initializing the tree the Application will utilze, Launches the series of questions to be asked, and returns the value to be passed to the web scrapper module.
     """
-    preference = input("Is this for A) Breakfast B) Lunch/Dinner? ")
     bst = BinarySearchTree()
-    create_tree(bst, preference)
+    validate_answer = False
+    prompt = "Is this for A) Breakfast B) Lunch/Dinner? "
+    while not validate_answer:    
+        preference = input(prompt)    
+        preference_validation =  bst.validate_answer(prompt, preference)
+        validate_answer = preference_validation["is_valid"]
+    
+    create_tree(bst, preference_validation["word_selected_option"])
     history = bst.prompt_questions(bst)
     return history[-1]
+
