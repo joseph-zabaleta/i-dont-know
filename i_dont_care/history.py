@@ -114,10 +114,7 @@ def get_history():
 def add_order_to_history(user, food, order_date = None):
     if not order_date : order_date = date.today()
 
-    # open the file and get the info
     order_history = get_history()
-    # print(order_history)
-    # return
     if not order_history:
         order_history = {} 
         order_history["orders"] = []
@@ -127,7 +124,6 @@ def add_order_to_history(user, food, order_date = None):
             "order" : food
         })
     else:
-        # print (orders_file)
         order_history["orders"].append({
             "user" : user,
             "date" : str(order_date),
@@ -153,14 +149,4 @@ def load_dummy_data():
     add_order_to_history('Skyler', 'Hamburguers','2020-06-07')
     add_order_to_history('Ahmad', 'Sushi','2020-06-09')
 
-
-# if __name__ == "__main__":
-    # load_dummy_data()
-    # print(get_history_list())
-    # print("\n *********")
-    # print(get_history_list(True))
-    # display_orders_history()
-    # print("\n")
-    # display_orders_by_user()
-    # print(get_users())
 

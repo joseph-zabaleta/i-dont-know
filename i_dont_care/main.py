@@ -10,13 +10,18 @@ from i_dont_care import (
 
 
 def show_last_orders():
+    order_list = history.get_history_list(True)
+
+    if len(order_list) == 0 : return
     print("\n\nThese are some of the last orders...")
     print('************************************\n')
-    order_list = history.get_history_list(True)
+
     if len(order_list) >= 5:
         max = 5
     else:
         max = len(order_list)
+
+
 
     for i in range(0,max):
         print(order_list[i])
@@ -33,7 +38,9 @@ def promp_user():
 
     names += ' or new user?'
 
-    print("\n\nWho is ordering today", names)
+    if len(user_list) > 0 :
+        print("\n\nWho is ordering today", names)
+
     while user == "":
         user = input('\nPlease enter the user name who is going to choose today... ')
     
