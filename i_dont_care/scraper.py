@@ -2,7 +2,7 @@ import requests
 import time 
 from bs4 import BeautifulSoup
 from i_dont_care import main
-from termcolor import cprint
+from termcolor import cprint, colored
 # Resource / Inspiration for Getting location:
 # Mad respect to :https://www.youtube.com/watch?v=OlSQ2TEP3oc
 
@@ -17,9 +17,8 @@ def get_location():
     res = requests.get('https://ipinfo.io/')
     data = res.json()
     city_prompt = data['city']
-
-    print("\n\n")
-    change = input("We are going to search for restaurants in " + city_prompt + " do you want to change location? (yes/no) ")
+    
+    change = input("\nWe are going to search for restaurants in " + city_prompt + " do you want to change location? (yes/no) ")
     if change.upper() == 'YES' or change.upper() == 'Y':
         city_prompt = ""
         while city_prompt == "":
@@ -31,7 +30,7 @@ def get_location():
 def scrape_yelp(item):
 
     area = get_location()
-    print (f"\nSearching information of {item} in {area}...\n")
+    cprint (f"\nSearching information of {item} in {area}...\n", 'green', attrs=['bold'])
     time.sleep(1)
     yelp_url = f'https://www.yelp.com/search?find_desc={item}&find_loc={area}&ns=1'
 
