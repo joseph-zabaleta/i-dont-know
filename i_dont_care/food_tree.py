@@ -1,8 +1,3 @@
-# from collections import deque
-
-#this is needed for city geo location
-# import requests
-
 
 class Node:
     def __init__(self, value, question, left=None, right=None):
@@ -161,8 +156,6 @@ class BinarySearchTree(BinaryTree):
         traverse(self.root, new_node)
 
  
-
-
 def create_tree(tree, pref):
     """This will create the initial tree for the application to run off. It has two required arguments, a Binary Search Tree and a preference of breakfast or lunch/dinner.
     """
@@ -227,21 +220,6 @@ def start_app():
     """
     bst = BinarySearchTree()
     validate_answer = False
-
-    # # City/Area location
-
-    # # option 1 - manual prompt
-    # # city_prompt = "What city do you live in?"
-    
-    # # option 2 - ip address
-    # # Mad respect to :https://www.youtube.com/watch?v=OlSQ2TEP3oc
-    # res = requests.get('https://ipinfo.io/')
-    # # print(res.text)
-    # data = res.json()
-    # city_prompt = data['city']
-    # return (city_prompt)
-    
-    
     
     prompt = "Is this for A) Breakfast B) Lunch/Dinner? "
     while not validate_answer:    
