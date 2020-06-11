@@ -52,9 +52,10 @@ def get_full_info():
 
     return list_return
 
-
-# function to get unique values 
-def get_unique_list_values(list_to_review):     
+ 
+def get_unique_list_values(list_to_review): 
+    """Helper function, takes in a list as a single argument and returns a unique list.
+    """    
     unique_list = [] 
       
     # traverse for all elements 
