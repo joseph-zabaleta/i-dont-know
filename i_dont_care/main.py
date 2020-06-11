@@ -77,7 +77,8 @@ def start_app():
         search_query =  get_random_food()
         history.add_order_to_history(user, search_query)
         results = scraper.scrape_yelp(search_query)  # searches yelp and gets/returns results
-
+    
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 
 if __name__ == "__main__":
