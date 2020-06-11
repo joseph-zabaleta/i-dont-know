@@ -117,3 +117,7 @@ node_modules/
 .next/
 
 .history/
+
+# Do does not push up test data text file
+assets/test-data.txt
+assets/orders_history.txt

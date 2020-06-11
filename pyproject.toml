@@ -6,6 +6,11 @@ authors = ["Iris Leal <iris_leal_m@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pyfiglet = "^0.8.post1"
+colorama = "^0.4.3"
+termcolor = "^1.1.0"
+requests = "^2.23.0"
+bs4 = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
