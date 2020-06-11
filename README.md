@@ -1,11 +1,18 @@
 # Midterm Demo: Team Bacon
  
-## Overview  
+## Overview:  
+Name of Project: Honey, I Don’t Care!  
   
+Summary of idea.
+To have a decision tree to help the user decide what to eat. Once the user knows what to eat, the system will do web scrapping to present options on where to order the food.  
+
 ## Dependencies  
-- poetry  
-- python  
-- pyenv  
+- python = "^3.8"
+- pyfiglet = "^0.8.post1"  
+- colorama = "^0.4.3"
+- termcolor = "^1.1.0"
+- requests = "^2.23.0"
+- bs4 = "^0.0.1"
 
 ## Authors  
 - Software Developer: Corey DeJong
@@ -21,6 +28,14 @@ This project is under the MIT License.
 ## Acknowledgements / Resources / Inspiration Links
 - ASCII Art and Colors  
     - [Link to Article](https://stackoverflow.com/questions/9632995/how-to-easily-print-ascii-art-text)  
+- Terminal Colors  
+    - [Link to Documentation](https://pypi.org/project/termcolor/)  
+- Curses Library / Menu  
+    - [Link to Video Part 1](https://www.youtube.com/watch?v=BK7YvpTT4Sw&list=PLyb_C2HpOQSBxk3yBBcrUHReH9BwMUYhG)  
+    - [Link to Video Part 2](https://www.youtube.com/watch?v=zwMsmBsC1GM)  
+    - [Link to Repo with Note Books](https://github.com/nikhilkumarsingh/python-curses-tut)    
+- Location Resource  
+    - [Link to Video](https://www.youtube.com/watch?v=OlSQ2TEP3oc)  
 
 ## Version History  
 - 1.0.0 20200603
@@ -36,7 +51,20 @@ This project is under the MIT License.
     - Created a Tree module
     - Created basic scraper functionality
     - Established main.py    
-    
+- 1.0.4 20200609  
+    - Modified the intro with curses  
+    - Integrated Validation to tree module inputs  
+    - Tree questions were expanded  
+    - Cleaned / improve tree and scraper modules.  
+- 1.0.5 20200610  
+    - Created first version of location module  
+    - Created first version of saving/rendering history  
+    - Created first version of random feature  
+    - Modified Intro module to include history and random features.  
+- 1.0.6 20200611  
+    - Project grooming  
+    - Documentation Review/Update  
+
 ---
 
 ## Initial Wireframe  

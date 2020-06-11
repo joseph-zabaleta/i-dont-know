@@ -46,7 +46,11 @@ def print_history(stdscr):
     """Prints the history part of the menu, creating three lists for each type of history data we are saving
     """
     stdscr.clear()
-    user_list, order_list, history_list = history.get_full_info()
+    try:
+        user_list, order_list, history_list = history.get_full_info()
+    except ValueError:
+        user_list, order_list, history_list = [['Number of orders by user'],['Orders by food category'],['History of all the orders']]
+
     curses.init_pair(2, curses.COLOR_CYAN, 0)
     curses.init_pair(3, curses.COLOR_CYAN, 0)
     try:
@@ -57,6 +61,8 @@ def print_history(stdscr):
     except curses.error:
         pass
     h, w = stdscr.getmaxyx()
+
+    # Printing the Number of orders by User
     for idx, item in enumerate(user_list):
         x = 5
         y = (h // 4) * 2 + 3 + idx
@@ -77,6 +83,8 @@ def print_history(stdscr):
                 stdscr.addstr(y, x, item)
             except curses.error:
                 pass
+
+    # Printing Orders by food category
     for idx, item in enumerate(order_list):
         x = (w // 5) * 2
         y = h // 3 + idx
@@ -94,6 +102,8 @@ def print_history(stdscr):
                 stdscr.addstr(y, x, item)
             except curses.error:
                 pass
+    
+    # History of all the orders
     for idx, item in enumerate(history_list):
         x = (w // 5) * 3 + 10
         y = h // 3 + idx

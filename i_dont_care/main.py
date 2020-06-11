@@ -1,5 +1,6 @@
 import os 
 from random import randint
+from termcolor import cprint
 import curses
 from i_dont_care import (
     intro,
@@ -14,8 +15,8 @@ def show_last_orders():
     order_list = history.get_history_list(True)
 
     if len(order_list) == 0 : return
-    print("\n\nThese are some of the last orders...")
-    print('************************************\n')
+    cprint("\n\nThese are some of the last orders...", 'green', attrs=['bold'])
+    cprint('************************************\n', 'green', attrs=['bold'])
 
     if len(order_list) >= 5:
         max = 5
@@ -37,10 +38,10 @@ def promp_user():
     for user_names in user_list:
         names += user_names + ", "
 
-    names += ' or new user?'
+    names += 'or new user?'
 
     if len(user_list) > 0 :
-        print("\n\nWho is ordering today", names)
+        cprint("\n\nWho is ordering today " + names, 'yellow', attrs=['bold'])
 
     while user == "":
         user = input('\nPlease enter the name of the person who is choosing today... ')
@@ -54,7 +55,7 @@ def get_random_food():
         'Noddle' ,'Wings' ,'Bakery' ,'Vegeratian' ,'American' ,'Ramen' ,'Korean' , 'Poke', 'Tex-Mex', 'Southern', 'Salad',
         'Noodles', 'Creperies' , 'Barbeque', 'Greek']
 
-    random_index = randint(0,len(food_list))
+    random_index = randint(0,len(food_list)-1)
     
     return food_list[random_index]
 
