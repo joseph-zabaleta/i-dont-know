@@ -1,7 +1,6 @@
 import json
 from datetime import date
 
-
 def get_full_info():
     """
     This method return a array with 3 elements, each element is a list, 
@@ -30,7 +29,7 @@ def get_full_info():
     unique_users_names = get_unique_list_values(list_users)
     unique_food_names = get_unique_list_values(list_orders)
 
-    # fillin list_users_return
+    # Filling list_users_return
     tupple_users = (list_users)  # create tupples to use count method
     list_users_return.append('Number of orders by user')
     for user in unique_users_names:
@@ -38,14 +37,14 @@ def get_full_info():
 
 
     # Filling list_orders_return
-    list_orders_return.append("List of orders by food category")    
+    list_orders_return.append("Orders by food category")    
     tupple_orders = (list_orders) # create tupples to use count method
     for food in unique_food_names:
         list_orders_return.append(food + " has been ordered " + str(tupple_orders.count(food)) + " times.")
 
     # Filling list_history_return
     list_history_return = get_history_list(True)
-    list_history_return.insert(0, "These are all the orders realizaded")
+    list_history_return.insert(0, "History of all the orders")
 
     list_return.append(list_users_return)
     list_return.append(list_orders_return)
@@ -66,6 +65,7 @@ def get_unique_list_values(list_to_review):
 
     return unique_list
 
+
 def get_users():
     """
     This function returns a list with the names of the users who have placed orders.
@@ -79,7 +79,6 @@ def get_users():
         list_users.append(order["user"])
     
     return get_unique_list_values(list_users)
-
 
 
 def display_orders_by_user():
@@ -116,7 +115,6 @@ def display_orders_by_user():
         print("     " + food + " has been ordered " + str(tupple_orders.count(food)) + " times.")
 
 
-
 def display_orders_history():
     order_list = get_history_list(True)
 
@@ -128,7 +126,6 @@ def display_orders_history():
     print('These are the orders so far...\n\n')
     for order in order_list:
         print(order)
-
 
 
 def get_history_list(reversed = None):
