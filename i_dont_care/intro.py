@@ -160,7 +160,7 @@ def main(stdscr):
                 break
 
             if current_row == 1:
-                status = 1
+                # status = 1
                 print_history(stdscr)
                 stdscr.getch()
             
