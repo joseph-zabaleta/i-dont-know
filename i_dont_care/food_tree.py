@@ -20,6 +20,20229 @@ class BinaryTree:
 
         return f"The root is {self.root.value}"
 
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.value)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.value)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
+    def pre_order(self):
+        """This is a Depth First traversal method. It prioritizes printing the `root` first, then looks to print `left` if left is not `None`, and lastly looks `right`."""
+        collection = []
+
+        def walk(root):
+            if not root:
+                return
+
+            # <<< root >>>
+            collection.append(root.question)
+
+            # <<< left
+            walk(root.left)
+
+            # right >>>
+            walk(root.right)
+
+        # end
+        walk(self.root)
+
+        return collection
  
     def validate_answer(self, prompt, answer):
         return_dict = {

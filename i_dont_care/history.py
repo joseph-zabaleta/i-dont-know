@@ -200,3 +200,16 @@ def load_dummy_data():
     add_order_to_history('Skyler', 'Hamburguers','2020-06-07')
     add_order_to_history('Ahmad', 'Sushi','2020-06-09')
 
+
+def load_test_info():
+    """
+    Cleans all the ordering information in json file orders_history.
+    """
+    try:
+        with open('./assets/orders_history.txt', 'w') as outfile:
+             pass
+        load_dummy_data()
+
+    except:
+        return None
+
