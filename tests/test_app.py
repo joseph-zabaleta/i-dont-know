@@ -63,7 +63,7 @@ def test_get_history():
     assert actual == expected
 
 
-def test_get_history_2():
+def test_get_history_two():
     history.load_test_info()
     data = history.get_history()
     actual = data['orders'][3]['order']
@@ -76,13 +76,30 @@ def test_get_users():
     data = history.get_users()
     actual = data[1]
     expected = 'JB'
+    assert actual == expected
 
 
-def test_get_users_2():
+def test_get_users_two():
     history.load_test_info()
     data = history.get_users()
     actual = data[3]
     expected = 'Aliya'
+    assert actual == expected
+    
+      
+def test_history_del_add():
+    history.load_test_info()    
+    expected = "On 2020-03-29, Skyler ordered Indian" 
+    list_history = history.get_history_list()
+    actual = list_history[0]
+    assert actual == expected
+
+def test_history_del_add_two():
+    history.load_test_info()    
+    expected = "On 2020-06-09, Ahmad ordered Sushi" 
+    list_history = history.get_history_list()
+    actual = list_history[-1]
+    assert actual == expected
 
 # Main Tests
 def test_random_food():
@@ -100,7 +117,6 @@ def test_random_food_two():
     
     assert actual in food_list
 
-    
 
 # User Input test
 
@@ -108,6 +124,13 @@ def test_validate_answer_is_valid():
     bt = food_tree.BinaryTree()
     expected = True
     is_valid =  bt.validate_answer("Do you want A) Fast food or B) Sit down?", "A")
+    actual = is_valid['is_valid']
+    assert actual == expected
+
+def test_validate_answer_is_valid_false():
+    bt = food_tree.BinaryTree()
+    expected = False
+    is_valid =  bt.validate_answer("Do you want A) Fast food or B) Sit down?", "aa")
     actual = is_valid['is_valid']
     assert actual == expected
     
@@ -118,11 +141,23 @@ def test_validate_answer_selected_option():
     actual = dict_test['selected_option']
     assert actual == expected
 
-# {'is_valid': True, 'prompt': 'Do you want A) Fast food or B) Sit down?', 'selected_option': 'A', 'word_selected_option': 'Fast food'}
+def test_validate_answer_selected_option_false():
+    bt = food_tree.BinaryTree()
+    expected = False
+    dict_test =  bt.validate_answer("Do you want A) Fast food or B) Sit down?", "aa")
+    actual = dict_test['is_valid']
+    assert actual == expected
 
 def test_validate_answer_word_selected_option():
     bt = food_tree.BinaryTree()
     expected = "Fast food"
     dict_test =  bt.validate_answer("Do you want A) Fast food or B) Sit down?", "Fast food")
+    actual = dict_test['word_selected_option']
+    assert actual == expected
+
+def test_validate_answer_word_selected_option_2():
+    bt = food_tree.BinaryTree()
+    expected = "Sit down"
+    dict_test =  bt.validate_answer("Do you want A) Fast food or B) Sit down?", "B")
     actual = dict_test['word_selected_option']
     assert actual == expected
