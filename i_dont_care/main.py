@@ -29,7 +29,6 @@ def show_last_orders():
         print(order_list[i])
 
 
-
 def promp_user():
     user = ""
     user_list = history.get_users()
@@ -58,6 +57,7 @@ def get_random_food():
     random_index = randint(0,len(food_list)-1)
     
     return food_list[random_index]
+
 
 def start_app():
     status = curses.wrapper(intro.main)
