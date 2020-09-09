@@ -4,7 +4,7 @@ ENV/
 .idea
 .DS_Store
 .history
-
+assets/order_history.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
